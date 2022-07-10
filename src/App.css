@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+/*
+
+font-family: 'Open Sans', sans-serif;
+
+font-family: 'Poppins', sans-serif;
+
+*/
+
+
+
 body{
   background-color: hsl(257, 40%, 49%);
   background-image: url(./images/bg-mobile.svg);
@@ -8,15 +20,56 @@ body{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .container{
   padding: 1em 2em;
 }
 
+.main-img-mobile{
+  background-image: url(./images/illustration-mockups.svg);
+  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 15em;
+  width: 100%;
+  margin-top: 3em;
+}
+
+.main-content{
+  margin-top: 1em;
+  text-align: center;
+  font-size: 1.23rem;
+  align-items: center;
+  align-content: center;
+}
+
+button{
+  margin-left: 5em;
+  padding: 1em 6em;
+  border-radius: 2.5rem;
+  border: none;
+  color: hsl(257, 40%, 49%);;
+}
 
 
 .logo{
   width: 175px;
 }
 
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 3em;
+  border-radius: solid 5px white;
+}
+
+.logo-footer{
+  width: 20px;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(268deg) brightness(104%) contrast(101%);
+}
