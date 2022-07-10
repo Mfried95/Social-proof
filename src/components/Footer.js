@@ -10,6 +10,7 @@ import instagram from "../images/instagram.svg"
             <img src={facebook} alt="facebook-logo" className="logo-footer"/>
             <img src={twitter} alt="twitter" className="logo-footer"/>
             <img src={instagram} alt="instagram" className="logo-footer"/>
+            <a href=""></a>
         </footer>
     )
  }
